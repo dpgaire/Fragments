@@ -3,23 +3,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".fragments.AutoMorphic">
+    tools:context=".fragments.second_fragments"
+    android:orientation="vertical">
 
     <EditText
-        android:id="@+id/etMornum"
+        android:id="@+id/etpalnum"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter a number "/>
-
+        android:hint="Enter the number"/>
 
 
 
     <Button
-        android:id="@+id/btnAutoMorphic"
-        android:layout_marginTop="30dp"
+        android:id="@+id/btnPlalindrome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Check Auto Morphic "/>
+        android:text="Check Palindrome "/>
+
+
+
+
+
 
 </LinearLayout>

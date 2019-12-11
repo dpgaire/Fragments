@@ -1,14 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.first_fragments">
+    tools:context=".fragments.second_fragments"
+    android:orientation="vertical">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <EditText
+        android:id="@+id/etfirst"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:hint="Enter the first no"/>
 
-</FrameLayout>
+
+    <EditText
+
+        android:id="@+id/etsecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the second no"/>
+
+    <Button
+        android:id="@+id/btnCslculatetwono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calualte "/>
+    <EditText
+        android:id="@+id/etResultsTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:hint="Results"/>
+
+
+
+
+
+</LinearLayout>
